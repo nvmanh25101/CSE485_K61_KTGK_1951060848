@@ -1,6 +1,4 @@
-<?php
-    require_once 'views/template/message.php';
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,6 +16,9 @@
             <a class="btn btn-primary col-1" href="index.php?controller=employee&action=add">
                 Thêm
             </a>
+            <?php
+            require_once 'views/template/message.php';
+            ?>
             <table class="table table-hover">
                 <thead>
                     <tr>
